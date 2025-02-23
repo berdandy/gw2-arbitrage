@@ -71,7 +71,12 @@ pub enum Type {
     Trophy,
     UpgradeComponent,
     Weapon,
-    Mwcc, // TODO: From SoTO, will probably be renamed eventually
+    FishingRod,
+    FishingBait,
+    FishingLure,
+    SensoryArray,
+    ServiceChip,
+    Relic,
 }
 
 #[derive(Debug, Serialize, Deserialize, Display)]
